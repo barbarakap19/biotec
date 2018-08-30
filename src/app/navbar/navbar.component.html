@@ -40,44 +40,29 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
+        <h4>Login</h4>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-          <div class="row">
-              <div class="col-md-12">
-                  
-                  <div class="row">
-                      <div class="col-md-6 mx-auto">
-                          <div class="card border-secondary">
-                              <div class="card-header">
-                                  <h3 class="mb-0 my-2">Login</h3>
-                              </div>
-                              <div class="card-body">
-                                  <form class="form" role="form" autocomplete="off">
-                                      <div class="form-group">
-                                          <label for="inputEmail3">E-mail</label>
-                                          <input type="email" class="form-control" id="inputEmail3" placeholder="" required="">
-                                      </div>
-                                      <div class="form-group">
-                                          <label for="inputPassword3">Senha</label>
-                                          <input type="password" class="form-control" id="inputPassword3" placeholder="" title="At least 6 characters with letters and numbers" required="">
-                                      </div>
-                                      <div class="form-group">
-                                          <button type="submit" class="btn btn-success btn-lg float-right" style="margin:10px;">Login</button>
-                                      </div>
-                                  </form>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <!--/row-->
-      
+          <div class="login-page">
+              <div class="form">
+                <form class="register-form">
+                  <input type="text" placeholder="name"/>
+                  <input type="password" placeholder="password"/>
+                  <input type="text" placeholder="email address"/>
+                  <button>create</button>
+                  <p class="message">Already registered? <a href="#">Sign In</a></p>
+                </form>
+                <form class="login-form">
+                  <input type="text" placeholder="username"/>
+                  <input type="password" placeholder="password"/>
+                  <button>login</button>
+                  <p class="message">Not registered? <a href="#">Create an account</a></p>
+                </form>
               </div>
-              <!--/col-->
-          </div>              
-                      
+            </div> 
                  
               
               
