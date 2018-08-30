@@ -21,7 +21,9 @@
   }
   
   .card-signin .card-body {
-    padding: 2rem;
+    padding: 0.1rem;
+    width: 240px;
+    height: 430px;
   }
   
   .form-signin {
@@ -33,7 +35,7 @@
     border-radius: 5rem;
     letter-spacing: .1rem;
     font-weight: bold;
-    padding: 1rem;
+    padding: 0.5rem;
     transition: all 0.2s;
   }
   
@@ -44,7 +46,7 @@
   
   .form-label-group input {
     border-radius: 4rem;
-    width: 16rem;
+    width: 15rem;
   }
   
   .form-label-group>input,
