@@ -96,3 +96,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
 }
+
+
+@media (min-width: 320px) and (max-width: 640px) {
+  .login-page {
+    width: 270px;
+    padding: 8% 0 0;
+    margin: auto;
+  }
+}
